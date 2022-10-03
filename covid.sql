@@ -160,7 +160,6 @@ FROM covid_deaths
 WHERE continent IS NOT NULL
 GROUP BY date;
 
--- 03-Oct-2022
 -- GLOBAL DEATHS
 SELECT * FROM covid_deaths LIMIT 20;
 
